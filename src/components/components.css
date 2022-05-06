@@ -10,6 +10,12 @@ div {
 	padding-top: 15px;
 }
 
+.minus {
+	float: right;
+	width: 20px;
+	padding-top: 20px;
+}
+
 .advice-toggle-short {
 	border-width: 2.5px;
 	border-color: #1c2758;
@@ -19,6 +25,10 @@ div {
 	padding-left: 5%;
 	padding-right: 5%;
 	margin-bottom: 15px;
+}
+
+.advice-toggle-short:hover {
+	background-color: #e6f1ff;
 }
 
 .advice-short-closed {
@@ -34,9 +44,11 @@ div {
 	color: white;
 	border-radius: 25px;
 	padding-left: 5%;
+	padding-right: 5%;
 	margin-bottom: 15px;
 }
 
 .advice-short-open {
 	font-weight: 600;
+	float: left;
 }

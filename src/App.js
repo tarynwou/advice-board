@@ -21,44 +21,39 @@ function App() {
 					</p>
 				</div>
 			</div>
-			<br></br>
 
 			<div className="page-column" id="left-column">
 				<h2 className="category-title" id="lifestyle">
 					Lifestyle
 				</h2>
+
+				<Advice
+					short="Surround yourself with people who inspire you to grow."
+					long="[filler] inside content"
+					id=""
+				></Advice>
+				<Advice
+					short="Make time for reflection."
+					long="[filler] inside content"
+					id=""
+				></Advice>
+				<Advice
+					short="If you don’t write it down, you’re gonna forget it."
+					long="[filler] inside content"
+					id=""
+				></Advice>
 				<Advice
 					short="If you're feeling bad, HALT. Check if you're hungry, angry, lonely, or tired."
 					long="[filler] inside content"
 					id=""
 				></Advice>
 				<Advice
-					short="Advice #"
+					short="If you’re gonna not do something, commit to the break."
 					long="[filler] inside content"
 					id=""
 				></Advice>
 				<Advice
-					short="Advice #"
-					long="[filler] inside content"
-					id=""
-				></Advice>
-				<Advice
-					short="Advice #"
-					long="[filler] inside content"
-					id=""
-				></Advice>
-				<Advice
-					short="Advice #"
-					long="[filler] inside content"
-					id=""
-				></Advice>
-				<Advice
-					short="Advice #"
-					long="[filler] inside content"
-					id=""
-				></Advice>
-				<Advice
-					short="Advice #"
+					short="You can grow out of things."
 					long="[filler] inside content"
 					id=""
 				></Advice>
@@ -69,35 +64,31 @@ function App() {
 					School
 				</h2>
 				<Advice
-					short="Advice #"
+					short="School is not just for studies."
 					long="[filler] inside content"
 					id=""
 				></Advice>
 				<Advice
-					short="Advice #"
-					long="[filler] inside content"
-					id=""
-				></Advice>
-				<Advice
-					short="Advice #"
+					short="Spend time getting to know the teachers and professors you like."
 					long="[filler] inside content"
 					id=""
 				></Advice>
 				<h2 className="category-title" id="work">
 					Work
 				</h2>
-				<Advice
-					short="Make time for documentation."
-					long="[filler] inside content"
-					id=""
-				></Advice>
+
 				<Advice
 					short="Be a friendly, approachable, and helpful coworker."
 					long="[filler] inside content"
 					id=""
 				></Advice>
 				<Advice
-					short="Advice #"
+					short="Ask to jump in on projects you want to work on."
+					long="[filler] inside content"
+					id=""
+				></Advice>
+				<Advice
+					short="Make time for documentation."
 					long="[filler] inside content"
 					id=""
 				></Advice>
