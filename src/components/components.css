@@ -1,6 +1,7 @@
-/* doesn't do anything */
-.div {
+div {
 	color: #1c2758;
+	font-family: "San Francisco", "SF Pro Text", -apple-system, system-ui,
+		sans-serif;
 }
 
 .advice-toggle-short {
@@ -10,4 +11,22 @@
 	height: 50px;
 	border-radius: 25px;
 	padding-left: 5%;
+}
+
+.advice-short-closed {
+	font-weight: 600;
+}
+
+.advice-toggle-long {
+	border-width: 2.5px;
+	border-color: #1c2758;
+	border-style: solid;
+	background-color: #1c2758;
+	color: white;
+	border-radius: 25px;
+	padding-left: 5%;
+}
+
+.advice-short-open {
+	font-weight: 600;
 }
