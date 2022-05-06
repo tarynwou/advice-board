@@ -1,6 +1,48 @@
+.main {
+	background-color: #e6f1ff;
+}
+
+.taryn {
+	float: right;
+	padding-right: 100px;
+	padding-top: 150px;
+	height: 300px;
+}
 .page-column {
 	width: 45%;
 	margin: 2.5%;
+}
+.page-top {
+	min-height: 500px;
+}
+
+.category-title {
+	font-size: 36px;
+	margin-bottom: 30px;
+	padding-left: 20px;
+}
+
+#title {
+	margin-top: 180px;
+	margin-bottom: 0px;
+	font-size: 96px;
+	font-family: "Poppins";
+}
+
+#subtitle {
+	font-size: 22px;
+	padding-left: 10px;
+}
+
+#left-top-column {
+	width: 40%;
+	margin: 0;
+	float: left;
+}
+#right-top-column {
+	width: 60%;
+	margin: 0;
+	float: right;
 }
 
 #left-column {
